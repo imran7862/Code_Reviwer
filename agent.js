@@ -6,7 +6,7 @@ import path from "path";
 // npm i fs
 // npm i path
 
-const ai = new GoogleGenAI({});
+const ai = new GoogleGenAI({}); // api key 
 
 // Step 1 : Tools for 1] Listoffiles , 2] readfiles and tool for 3] write/update files
 // ============================================
