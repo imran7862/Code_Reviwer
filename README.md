@@ -7,7 +7,8 @@ flowchart TD
     %% NODES
     %% =========================
 
-    A[User CLI Command "node agent.js ./tester"]
+    A[User CLI Command
+    node agent.js ./tester]
     B[runAgent Function]
     C[Gemini Model gemini-2.5-flash]
     D{Tool Dispatcher}
